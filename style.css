@@ -5,12 +5,10 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: #7bdaf3;
+  font-family: 'Poppins', sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  flex-wrap: wrap;
   margin: 0;
+  padding-top: 3rem;
 }
