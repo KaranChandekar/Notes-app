@@ -31,4 +31,9 @@ function addNewNote(text = "") {
     note.remove();
     updateLS();
   });
+
+  editBtn.addEventListener("click", () => {
+    main.classList.toggle("hidden");
+    textArea.classList.toggle("hidden");
+  });
 }
