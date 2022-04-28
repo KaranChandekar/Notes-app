@@ -44,3 +44,6 @@ function addNewNote(text = "") {
   });
   document.body.appendChild(note);
 }
+
+function updateLS() {
+}
